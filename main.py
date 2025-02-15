@@ -31,6 +31,10 @@ with app.app_context():
 
 
 
+@app.route("/", methods=["GET", "POST"])
+def homepage():
+    return "hi"
+
 #Register clinician
 @app.route("/register", methods=["POST"])
 def register():
