@@ -31,9 +31,9 @@ with app.app_context():
 
 
 
-# @app.route("/", methods=["GET", "POST"])
-# def homepage():
-#     return "API for GenVoice -> Entrance point"
+@app.route("/", methods=["GET", "POST"])
+def homepage():
+    return "API for GenVoice -> Entrance point"
 
 #Register clinician
 @app.route("/register", methods=["POST"])
