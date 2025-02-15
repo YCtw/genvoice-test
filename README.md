@@ -1,3 +1,9 @@
+‼️The server is deployed on Heroku with Heroku PostgreSQL as the database. Since Heroku puts the application to sleep if it remains inactive for a period of time, you should "wake" the application by accessing its URL in a browser before testing with Postman. In short, before you start the test, do follow these steps:<br />
+1. Go to your browser and access the url: https://genvoice-api-41617b9f706a.herokuapp.com/
+2. Wait for the reponse for the homepage (wake the application), and you would see "API for GenVoice -> Entrance point"
+3. Open postman and start the test of each path
+
+
 👉 Features<br />
 📑Clinician Management
 - Register a new clinician (/register)
