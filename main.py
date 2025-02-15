@@ -31,6 +31,7 @@ with app.app_context():
 
 
 
+#Entrance of the API
 @app.route("/", methods=["GET", "POST"])
 def homepage():
     return "API for GenVoice -> Entrance point"
